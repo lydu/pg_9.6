@@ -1,0 +1,13 @@
+version: '2'
+.catalog:
+  name: "pg_96"
+  version: "v0.0.1"
+  description: "public service for test."
+  uuid: public-0
+  minimum_rancher_version: v1.0.0
+services:
+  pgmaster:
+    scale: 1
+    start_on_create: true
+    labels:
+      io.rancher.container.requested_ip: "10.42.200.217"
