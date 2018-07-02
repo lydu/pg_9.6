@@ -11,7 +11,7 @@ services:
      ports:
        - "30000:5432"
      volumes:
-       - /opt/pgmaster/pgdata/data:/var/lib/pgsql/9.6/data
+       - /opt/sata/pgmaster/pgdata/data:/var/lib/pgsql/9.6/data
      privileged: true
      tty: true
 
