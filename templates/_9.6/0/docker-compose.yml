@@ -1,6 +1,6 @@
 version: '2'
 services:
-  gpnode3:
+  pgmaster:
      image: 10.0.0.96:5000/database/pg_ip_pglogical_pathman:v3 
      hostname: pgmaster
      labels:

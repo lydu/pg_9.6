@@ -1,6 +1,6 @@
 version: '2'
 .catalog:
-  name: "pg_96"
+  name: "pgmaster"
   version: "v0.0.1"
   description: "public service for test."
   uuid: public-0
