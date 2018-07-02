@@ -5,13 +5,13 @@ services:
      hostname: pgmaster
      labels:
       io.rancher.scheduler.global: 'true'
-      io.rancher.scheduler.affinity:host_label: key1=104
+      io.rancher.scheduler.affinity:host_label: key1=100
      networks: 
        - docker_gwbridge
      ports:
        - "30000:5432"
      volumes:
-       - /opt/pgmaster/pgdata:/var/lib/pgsql/9.6/data/base
+       - /opt/pgmaster/pgdata/data:/var/lib/pgsql/9.6/data
      privileged: true
      tty: true
 
